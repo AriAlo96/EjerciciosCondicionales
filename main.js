@@ -177,64 +177,64 @@ juego(jugador1,jugador2)
 
 
 // //Ejercicio 11
-// let color = prompt ("Ingrese un color")
+let color = prompt ("Ingrese un color")
 
-// switch (color) {
-//     case ("blanco"):
-//         alert("Falta de color")
-//         break;
-//     case ("negro"):
-//         alert("Falta de color")
-//         break;
-//     case "verde":
-//         alert("El color de la naturaleza")
-//         break;
-//      case "azul":
-//         alert("El color del agua")
-//         break;
-//     case "amarillo":
-//         alert("El color del sol")
-//         break;    
-//     case "rojo":
-//         alert("El color del fuego")
-//         break;  
-//     case "marron":
-//         alert("El color de la tierra")
-//         break;
-//     default:
-//         alert("Exelente eleccion, no lo teniamos pensado")
-// }
-// }
+switch (color) {
+    case ("blanco"):
+        alert("Falta de color")
+        break;
+    case ("negro"):
+        alert("Falta de color")
+        break;
+    case "verde":
+        alert("El color de la naturaleza")
+        break;
+     case "azul":
+        alert("El color del agua")
+        break;
+    case "amarillo":
+        alert("El color del sol")
+        break;    
+    case "rojo":
+        alert("El color del fuego")
+        break;  
+    case "marron":
+        alert("El color de la tierra")
+        break;
+    default:
+        alert("Exelente eleccion, no lo teniamos pensado")
+}
+
 
 
 
 // //Ejercicio 12
 
-// let filas = prompt ("ingrese el numero de filas")
-// let columnas = prompt ("ingrese el numero de columnas")
+let filas = prompt ("ingrese el numero de filas")
+let columnas = prompt ("ingrese el numero de columnas")
 
-// function planilla (a,b){
-//     let totalCeldas = a * b
-//     return totalCeldas
-// }
+function planilla (a,b){
+    let totalCeldas = a * b
+    return totalCeldas
+}
 
-// let celdasPlanilla = planilla(filas,columnas)
-// alert ("Su planilla tiene un total de " + celdasPlanilla + " celdas")
+let celdasPlanilla = planilla(filas,columnas)
+alert ("Su planilla tiene un total de " + celdasPlanilla + " celdas")
 
 // //Ejercicio 13
 
-// let dni = {
-// numeroDni: prompt("Ingrese su n° de DNI"),
-// nacimiento: prompt("Ingrese su fecha de nacimiento"),
-// domicilio: prompt("Ingrese el domicilio que figura en su DNI"),
-// ciudadNatal: prompt("Ingrese su ciudad natal")
-// }
+let dni = {
+numeroDni: prompt("Ingrese su n° de DNI"),
+nacimiento: prompt("Ingrese su fecha de nacimiento"),
+domicilio: prompt("Ingrese el domicilio que figura en su DNI"),
+ciudadNatal: prompt("Ingrese su ciudad natal")
+}
 
-// alert("Los datos ingresados son los siguientes: n° de DNI: " + dni.numeroDni + ". Fecha de nacimiento: " + dni.nacimiento + ". Domicilio: " + dni.domicilio + ". Ciudad Natal: " + dni.ciudadNatal + ".")
+alert("Los datos ingresados son los siguientes: n° de DNI: " + dni.numeroDni + ". Fecha de nacimiento: " + dni.nacimiento + ". Domicilio: " + dni.domicilio + ". Ciudad Natal: " + dni.ciudadNatal + ".")
 
-// let verificacion = prompt("¿Son correctos? Responda si o no")
+let verificacion = prompt("¿Son correctos? Responda si o no")
 
-// if (verificacion = "si") {
-//     console.table(dni)
-// }
+if (verificacion = "si") {
+    console.table(dni)
+}
 
